@@ -1,0 +1,16 @@
+prototype(Ideenstadtwerke.Neos.Content.Accordion:AccordionItem) < prototype(Neos.Neos:ContentComponent) {
+    renderer = Ideenstadtwerke.Neos.Content.Accordion:Components.AccordionItem {
+        accordionIdentifier = ${props.accordionIdentifier}
+        icon = Neos.Neos:ImageUri {
+            asset = ${q(node).property('icon')}
+            @if.hasAsset = ${q(node).property('icon') ? true : false}
+        }
+        identifier = ${q(node).property('_identifier')}
+        iterator = ${iterator}
+        opened = ${q(node).property('opened') ? true : false}
+        title = Neos.Neos:Editable {
+            property = 'title'
+            block = false
+        }
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "extends": ["stylelint-config-sass-guidelines"],
+    "plugins": [
+        "stylelint-order"
+    ],
+    "rules": {
+        "order/order": [
+            "custom-properties",
+            "declarations"
+        ],
+        "order/properties-alphabetical-order": true,
+        "max-nesting-depth": 5,
+        "selector-class-pattern": "^[a-zA-Z0-9]+(?:-[a-zA-Z0-9]+)*(?:__[a-zA-Z0-9]+(?:-[a-zA-Z0-9]+)*)?(?:--[a-zA-Z0-9]+(?:-[a-zA-Z0-9]+)*)?(?:\\[.+\\])?$"
+    }
+}

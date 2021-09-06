@@ -1,0 +1,65 @@
+.accordion {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+  &__content {
+    background: #fbf8f8;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.35s;
+  }
+
+  &__inner_content {
+    padding: 2rem;
+  }
+
+  &__item {
+    margin-top: 0.5rem;
+  }
+
+  &__header {
+    background: #eee;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin: 0;
+  }
+
+  &__label {
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    padding: 1.5rem 2rem;
+
+    &::after {
+      color: #a8a8a8;
+      content: '❯';
+      height: 1em;
+      margin-left: auto;
+      text-align: center;
+      transform: rotate(90deg);
+      transition: all 0.35s;
+      width: 1em;
+    }
+  }
+
+  &__toggler {
+    display: none;
+
+    &:checked {
+      ~ .accordion__content {
+        max-height: 100vh;
+      }
+
+      ~ .accordion__header .accordion__label {
+        &::after {
+          transform: rotate(90deg) scaleX(-1);
+        }
+      }
+    }
+  }
+
+  &__icon {
+    height: 1em;
+    margin-right: 1em;
+    width: 1em;
+  }
+}

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file original="" product-name="Ideenstadtwerke.Neos.Content.Accordion" source-language="en" datatype="plaintext">
+    <body>
+      <trans-unit id="ui.label">
+        <source>Accordion-Item</source>
+        <target>Accordion-Eintrag</target>
+      </trans-unit>
+      <trans-unit id="groups.general">
+        <source>Accordion-Item Settings</source>
+        <target>Accordion-Eintrag Einstellungen</target>
+      </trans-unit>
+      <trans-unit id="properties.title.ui.inline.editorOptions.placeholder">
+        <source>Title for this accordion item</source>
+        <target>Titel des Accordion-Eintrags</target>
+      </trans-unit>
+      <trans-unit id="properties.icon">
+        <source>Icon</source>
+        <target>Icon</target>
+      </trans-unit>
+      <trans-unit id="properties.opened">
+        <source>Initially opened</source>
+        <target>Initial ausgeklappt</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

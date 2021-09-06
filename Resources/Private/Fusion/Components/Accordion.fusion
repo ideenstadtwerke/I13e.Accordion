@@ -1,0 +1,14 @@
+prototype(Ideenstadtwerke.Neos.Content.Accordion:Components.Accordion) < prototype(Neos.Fusion:Component) {
+    accordionIdentifier = null
+    items = ${[]}
+
+    renderer = afx`
+        <div class="accordion">
+            <Neos.Fusion:Loop items={props.items} itemName="node">
+                <Ideenstadtwerke.Neos.Content.Accordion:AccordionItem
+                    accordionIdentifier={props.accordionIdentifier}
+                />
+            </Neos.Fusion:Loop>
+        </div>
+    `
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file original="" product-name="Ideenstadtwerke.Neos.Content.Accordion" source-language="en" datatype="plaintext">
+    <body>
+      <trans-unit id="ui.label">
+        <source>Accordion</source>
+        <target>Accordion</target>
+      </trans-unit>
+      <trans-unit id="groups.general">
+        <source>Accordion Settings</source>
+        <target>Accordion Einstellungen</target>
+      </trans-unit>
+      <trans-unit id="properties.multiExpand">
+        <source>Multi expand</source>
+        <target>Mehrere ausklappbar</target>
+      </trans-unit>
+      <trans-unit id="properties.multiExpand.ui.help.message">
+        <source>Allow multiple items to be expanded at the same time.</source>
+        <target>Mehrere Accordion-Einträge können zeitgleich ausgeklappt werden.</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

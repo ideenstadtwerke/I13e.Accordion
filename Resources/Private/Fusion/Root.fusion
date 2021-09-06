@@ -1,0 +1,5 @@
+/**
+ * Root Fusion
+ */
+include: Components/**/*.fusion
+include: Integration/**/*.fusion

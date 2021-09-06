@@ -1,0 +1,58 @@
+'Ideenstadtwerke.Neos.Content.Accordion:AccordionItem':
+  superTypes:
+    'Neos.Neos:Content': true
+    'Neos.Neos:ContentCollection': true
+  ui:
+    label: i18n
+    icon: 'fas fa-indent'
+    group: general
+    inspector:
+      tabs:
+        general:
+          label: i18n
+          icon: 'icon-edit'
+          position: 10
+      groups:
+        general:
+          label: i18n
+          tab: general
+  constraints:
+    nodeTypes:
+      '*': true
+  properties:
+    title:
+      type: string
+      ui:
+        inlineEditable: true
+        inline:
+          editorOptions:
+            placeholder: i18n
+            autoparagraph: ~
+            linking: ~
+            formatting:
+              '*': false
+              removeFormat: true
+    icon:
+      type: Neos\Media\Domain\Model\ImageInterface
+      ui:
+        label: i18n
+        reloadIfChanged: true
+        inspector:
+          position: 10
+          group: 'general'
+          editorOptions:
+            constraints:
+              mediaTypes:
+                - 'image/svg+xml'
+            features:
+              crop: false
+              resize: false
+    opened:
+      type: boolean
+      defaultValue: false
+      ui:
+        label: i18n
+        reloadIfChanged: true
+        inspector:
+          group: 'general'
+          position: 20

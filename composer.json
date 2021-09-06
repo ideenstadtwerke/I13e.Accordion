@@ -1,0 +1,25 @@
+{
+    "name": "ideenstadtwerke/neos-content-accordion",
+    "type": "neos-plugin",
+    "description": "An accordion content element",
+    "require": {
+        "neos/neos": "*",
+        "neos/fusion-afx": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ideenstadtwerke\\Neos\\Content\\Accordion\\": "Classes/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Dominik Jansen",
+            "email": "dominik.jansen@leineenergie.de"
+        }
+    ],
+    "extra": {
+        "neos": {
+            "package-key": "Ideenstadtwerke.Neos.Content.Accordion"
+        }
+    }
+}
