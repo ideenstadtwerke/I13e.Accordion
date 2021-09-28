@@ -19,6 +19,8 @@
   constraints:
     nodeTypes:
       '*': true
+      'Ideenstadtwerke.Neos.Content.Accordion:Accordion': false
+      'Ideenstadtwerke.Neos.Content.Accordion:AccordionItem': false
   properties:
     title:
       type: string
