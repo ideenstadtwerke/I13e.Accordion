@@ -3,7 +3,7 @@ Neos:
     userInterface:
       translation:
         autoInclude:
-          'Ideenstadtwerke.Neos.Content.Accordion': ['*', 'NodeTypes/*']
+          'I13e.Accordion': ['*', 'NodeTypes/*']
     fusion:
       autoInclude:
-        'Ideenstadtwerke.Neos.Content.Accordion': true
+        'I13e.Accordion': true

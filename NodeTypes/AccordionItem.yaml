@@ -1,10 +1,10 @@
-'Ideenstadtwerke.Neos.Content.Accordion:AccordionItem':
+'I13e.Accordion:AccordionItem':
   superTypes:
     'Neos.Neos:Content': true
     'Neos.Neos:ContentCollection': true
   ui:
     label: i18n
-    icon: 'fas fa-indent'
+    icon: 'indent'
     group: general
     inspector:
       tabs:
@@ -19,8 +19,8 @@
   constraints:
     nodeTypes:
       '*': true
-      'Ideenstadtwerke.Neos.Content.Accordion:Accordion': false
-      'Ideenstadtwerke.Neos.Content.Accordion:AccordionItem': false
+      'I13e.Accordion:Accordion': false
+      'I13e.Accordion:AccordionItem': false
   properties:
     title:
       type: string

@@ -1,10 +1,10 @@
-'Ideenstadtwerke.Neos.Content.Accordion:Accordion':
+'I13e.Accordion:Accordion':
   superTypes:
     'Neos.Neos:Content': true
     'Neos.Neos:ContentCollection': true
   ui:
     label: i18n
-    icon: 'fas fa-align-justify'
+    icon: 'align-justify'
     group: general
     inspector:
       tabs:
@@ -19,10 +19,10 @@
   constraints:
     nodeTypes:
       '*': false
-      'Ideenstadtwerke.Neos.Content.Accordion:AccordionItem': true
+      'I13e.Accordion:AccordionItem': true
   childNodes:
     'default':
-      type: 'Ideenstadtwerke.Neos.Content.Accordion:AccordionItem'
+      type: 'I13e.Accordion:AccordionItem'
   properties:
     multiExpand:
       type: boolean
