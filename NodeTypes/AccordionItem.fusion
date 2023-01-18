@@ -1,5 +1,5 @@
-prototype(Ideenstadtwerke.Neos.Content.Accordion:AccordionItem) < prototype(Neos.Neos:ContentComponent) {
-    renderer = Ideenstadtwerke.Neos.Content.Accordion:Components.AccordionItem {
+prototype(I13e.Accordion:AccordionItem) < prototype(Neos.Neos:ContentComponent) {
+    renderer = I13e.Accordion:Components.AccordionItem {
         accordionIdentifier = ${props.accordionIdentifier}
         icon = Neos.Neos:ImageUri {
             asset = ${q(node).property('icon')}

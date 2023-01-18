@@ -1,4 +1,4 @@
-prototype(Ideenstadtwerke.Neos.Content.Accordion:Components.AccordionItem) < prototype(Neos.Fusion:Component) {
+prototype(I13e.Accordion:Components.AccordionItem) < prototype(Neos.Fusion:Component) {
     accordionIdentifier = ''
     icon = null
     identifier = ''

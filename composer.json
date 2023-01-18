@@ -1,15 +1,16 @@
 {
-    "name": "ideenstadtwerke/neos-content-accordion",
+    "name": "i13e/accordion",
     "type": "neos-plugin",
-    "description": "An accordion content element",
+    "license": "MIT",
+    "description": "An accordion content element for Neos CMS",
+    "keywords": [
+        "neos",
+        "neoscms",
+        "accordion"
+    ],
     "require": {
-        "neos/neos": "*",
+        "neos/neos": "^7.2 || ^8.0 || dev-master",
         "neos/fusion-afx": "*"
-    },
-    "autoload": {
-        "psr-4": {
-            "Ideenstadtwerke\\Neos\\Content\\Accordion\\": "Classes/"
-        }
     },
     "authors": [
         {
@@ -19,7 +20,7 @@
     ],
     "extra": {
         "neos": {
-            "package-key": "Ideenstadtwerke.Neos.Content.Accordion"
+            "package-key": "I13e.Accordion"
         }
     }
 }

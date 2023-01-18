@@ -1,5 +1,5 @@
-prototype(Ideenstadtwerke.Neos.Content.Accordion:Accordion) < prototype(Neos.Neos:ContentComponent) {
-    renderer = Ideenstadtwerke.Neos.Content.Accordion:Components.Accordion {
+prototype(I13e.Accordion:Accordion) < prototype(Neos.Neos:ContentComponent) {
+    renderer = I13e.Accordion:Components.Accordion {
         accordionIdentifier = ${q(node).property('_identifier')}
         items = ${q(node).children()}
         openedItems = ${this.items.filter('[opened=true]').count()}
